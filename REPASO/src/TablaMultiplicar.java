@@ -15,16 +15,31 @@ public class TablaMultiplicar {
         int numero, total; 
         int contador = 1;
         
-        System.out.println("Ingrese un número del 1 al 12:");
+        System.out.println("Ingrese un número del para mostrar su tabla:");
         numero = tcl.nextInt();
         do{
             total = numero * contador;
-            System.out.println("RESULT: " + total);
+            System.out.println(numero + "*"+contador+ "="+ total);
             contador = contador + 1;
         }while (contador <= 12); 
    
 }              
 }
-            
-   
-  
+/**
+ * run:
+Ingrese un n�mero del para mostrar su tabla:
+9*1=9
+9*2=18
+9*3=27
+9*4=36
+9*5=45
+9*6=54
+9*7=63
+9*8=72
+9*9=81
+9*10=90
+9*11=99
+9*12=108
+BUILD SUCCESSFUL (total time: 10 seconds)
+
+ */

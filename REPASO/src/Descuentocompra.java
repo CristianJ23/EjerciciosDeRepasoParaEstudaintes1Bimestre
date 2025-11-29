@@ -31,3 +31,11 @@ public class Descuentocompra {
         }   
     }
 }
+/**
+ * run:
+Ingrese el precio original del producto
+110
+Se le ha acreditado un descuento del 10 
+El total a pagar es: 99,00
+ BUILD SUCCESSFUL (total time: 5 seconds)
+ */

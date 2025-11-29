@@ -23,3 +23,12 @@ public class PlanillaLuz {
            
     }
 }
+/**
+ * run:
+Ingrese el costo por kilovatio/hora
+5,50
+Ingrese el n�mero de kilovatios consumidos en el mes
+96
+Su total a pagar es:528.0
+BUILD SUCCESSFUL (total time: 17 seconds)
+ */
